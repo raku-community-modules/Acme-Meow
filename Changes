@@ -1,4 +1,6 @@
 Revision history for Acme::Meow
 
 {{$NEXT}}
+
+0.2  2024-12-11T17:17:51+01:00
     - Initial version as a Raku Community module
