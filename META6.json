@@ -1,26 +1,29 @@
 {
-    "perl"        : "6.*",
-    "name"        : "Acme::Meow",
-    "version"     : "0.1",
-    "description" : "The kitty you always wanted, now in Perl 6",
-    "build-depends" : [ ],
-    "test-depends" : [
-        "Test"
-    ],
-    "depends" : [ ],
-    "provides" : {
-        "Acme::Meow" : "lib/Acme/Meow.pm"
-    },
-    "authors" : [
-        "Tadeusz “tadzik” Sośnierz",
-        "Paul Cochrane",
-        "GlithMr",
-        "Ethan House",
-        "Tobias Leich"
-    ],
-    "support" : {
-        "bugtracker" : "https://github.com/tadzik/perl6-Acme-Meow/issues",
-        "source" : "git://github.com/tadzik/perl6-Acme-Meow.git"
-    },
-    "source-url"  : "git://github.com/tadzik/perl6-Acme-Meow.git"
+  "auth": "zef:raku-community-modules",
+  "authors": [
+    "Tadeusz “tadzik” Sośnierz",
+    "Paul Cochrane",
+    "GlithMr",
+    "Ethan House",
+    "Tobias Leich"
+  ],
+  "build-depends": [
+  ],
+  "depends": [
+  ],
+  "description": "The kitty you always wanted, now in Raku",
+  "license": "NOASSERTION",
+  "name": "Acme::Meow",
+  "perl": "6.*",
+  "provides": {
+    "Acme::Meow": "lib/Acme/Meow.rakumod"
+  },
+  "resources": [
+  ],
+  "source-url": "https://github.com/raku-community-modules/Acme-Meow.git",
+  "tags": [
+  ],
+  "test-depends": [
+  ],
+  "version": "0.1"
 }
